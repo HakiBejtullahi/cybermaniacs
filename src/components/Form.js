@@ -262,7 +262,7 @@ const Form = () => {
                   type='tel'
                   pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}'
                   id='phone'
-                  placeholder='383 45 123 123'
+                  placeholder='383-45-123-123'
                   value={phoneOne}
                   required
                   onChange={(e) => setPhoneOne(e.target.value)}
@@ -285,7 +285,7 @@ const Form = () => {
                   type='tel'
                   pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}'
                   id='email'
-                  placeholder='383 45 123 123'
+                  placeholder='383-45-123-123'
                   value={phoneTwo}
                   required
                   onChange={(e) => setPhoneTwo(e.target.value)}
